@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Works - Mira Yao</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #f5faff, #ffffff);
+      color: #2f3e50;
+      margin: 0;
+    }
+
+    header {
+      background-color: #d9ecf8;
+      padding: 2em;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    header h1 {
+      font-size: 2.3em;
+      color: #215a91;
+    }
+
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #3a6e9a;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #f59e6c;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 3em auto;
+      padding: 0 2em;
+    }
+
+    section {
+      margin-bottom: 3em;
+    }
+
+    h2 {
+      color: #2a4b77;
+      border-bottom: 2px solid #ffcfa3;
+      padding-bottom: 0.3em;
+      margin-bottom: 1em;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.8em;
+      margin-bottom: 2em;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%; max-width: 720px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      background-color: #f8f8f8;
+      padding: 2em;
+      text-align: center;
+      color: #777;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Design Works</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="game.html">Game Design</a>
+      <a href="cv.html">CV</a>
+      <a href="photo.html">Photo Collection</a>
+      <a href="design.html">Design</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Magazine Design 📓</h2>
+      <p>I like the tactile and editorial nature of magazine layout, especially the blend of text and picture in page design. Here are some selected pages from my magazine design projects.</p>
+      <div class="gallery">
+        <img src="assets/d1.jpg" alt="Magazine Design 1">
+        <img src="assets/d2.jpg" alt="Magazine Design 2">
+        <img src="assets/d3.jpg" alt="Magazine Design 3">
+      </div>
+    </section>
+
+    <section>
+  <h2>Video Editing 🎬</h2>
+  <p> I enjoy editing movie clips and reorganizing them to make the theme I want to express more prominent. Although I am just starting to learn editing techniques and the quality of my work may not be particularly good yet, I think it is a great way to express my ideas.</p>
+
+  <div class="gallery">
+    <img src="assets/02.png" alt="Video Cover Group 1">
+    <img src="assets/022.jpg" alt="Video Cover Group 1">
+  </div>
+  <div style="text-align: center; margin-top: 1em;">
+    <a href="https://www.youtube.com/watch?v=zqak00c3FjQ" target="_blank" style="display: inline-block; background-color: #f59e6c; color: white; padding: 12px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+      ▶ Watch TSN 
+    </a>
+  </div>
+
+  <div class="gallery" style="margin-top: 3em;">
+    <img src="assets/11.jpg" alt="Video Cover Group 2">
+    <img src="assets/111.jpg" alt="Video Cover Group 2">
+  </div>
+  <div style="text-align: center; margin-top: 1em;">
+    <a href="https://www.youtube.com/watch?v=hcmiYeFclHA&t=84s" target="_blank" style="display: inline-block; background-color: #f59e6c; color: white; padding: 12px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+      ▶ Watch Past Lives 
+    </a>
+  </div>
+</section>
+</main>
+
+  <footer>
+    <p>&copy; 2025 Mira Yao</p>
+  </footer>
+</body>
+</html>

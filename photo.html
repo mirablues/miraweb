@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Collection - Mira Yao</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #f5faff, #ffffff);
+      color: #2f3e50;
+      margin: 0;
+    }
+
+    header {
+      background-color: #d9ecf8;
+      padding: 2em;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    header h1 {
+      font-size: 2.3em;
+      color: #215a91;
+    }
+
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #3a6e9a;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #f59e6c;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 3em auto;
+      padding: 0 2em;
+    }
+
+    section {
+      margin-bottom: 3em;
+    }
+
+    h2 {
+      color: #2a4b77;
+      border-bottom: 2px solid #ffcfa3;
+      padding-bottom: 0.3em;
+      margin-bottom: 1em;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.8em;
+      margin-bottom: 2em;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 600px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      background-color: #f8f8f8;
+      padding: 2em;
+      text-align: center;
+      color: #777;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Photo Collection</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="game.html">Game Design</a>
+      <a href="cv.html">CV</a>
+      <a href="photo.html">Photo Collection</a>
+      <a href="design.html">Design Works</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About this Collection 📷</h2>
+      <p>🌊In my daily life, I like to use photos to record the beauty of life. The image of the sea is my favorite, please enjoy these photos of the ocean and lakes.</p>
+    </section>
+
+    <section>
+      <h2>Seaside</h2>
+      <div class="gallery">
+        <img src="assets/sea1.JPG" alt="Seaside 1">
+        <img src="assets/sea3.JPG" alt="Seaside 2">
+        <img src="assets/sea2.JPG" alt="Seaside 3">
+      </div>
+    </section>
+
+    <section>
+        <h2>Seas</h2>
+        <div class="gallery">
+          <img src="assets/e1.JPG" alt="Sea 1">
+          <img src="assets/e2.JPG" alt="Sea 2">
+          <img src="assets/e3.JPG" alt="Sea 3">
+        </div>
+      </section>
+
+    <section>
+      <h2>Sunrise</h2>
+      <div class="gallery">
+        <img src="assets/r1.JPG" alt="Sunrise 1">
+        <img src="assets/r2.JPG" alt="Sunrise 2">
+        <img src="assets/r3.JPG" alt="Sunrise 3">
+      </div>
+    </section>
+
+    <section>
+      <h2>Lakeside</h2>
+      <div class="gallery">
+        <img src="assets/l1.jpg" alt="Lakeside 1">
+        <img src="assets/l2.jpg" alt="Lakeside 2">
+        <img src="assets/l3.jpg" alt="Lakeside 3">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mira Yao</p>
+  </footer>
+</body>
+</html>
